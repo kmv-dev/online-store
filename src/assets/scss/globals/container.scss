@@ -1,11 +1,12 @@
 @mixin container {
-  max-width: 1390px;
+  max-width: 1410px;
   margin: 0 auto;
+  padding: 0 20px;
   @include _1500 {
 
   }
   @include _1400 {
-    padding: 0 10px;
+
   }
   @include _1300 {
 
